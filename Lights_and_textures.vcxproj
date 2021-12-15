@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{677F6E08-578F-34FA-8D80-13214E63A52B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Lights_and_textures</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Lights_and_textures.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Lights_and_textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Lights_and_textures.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Lights_and_textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Lights_and_textures.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Lights_and_textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Lights_and_textures.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Lights_and_textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\lib\freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/Debug/Lights_and_textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/Debug/Lights_and_textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\lib\freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/Release/Lights_and_textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/Release/Lights_and_textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\lib\freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/MinSizeRel/Lights_and_textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/MinSizeRel/Lights_and_textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\include;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\freeglut_installed\lib\freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/RelWithDebInfo/Lights_and_textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/RelWithDebInfo/Lights_and_textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\CatsHead.bmp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying the texture file CatsHead.bmp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -E copy C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/CatsHead.bmp C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/CatsHead.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CatsHead.bmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying the texture file CatsHead.bmp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -E copy C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/CatsHead.bmp C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/CatsHead.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CatsHead.bmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Copying the texture file CatsHead.bmp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -E copy C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/CatsHead.bmp C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/CatsHead.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CatsHead.bmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Copying the texture file CatsHead.bmp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -E copy C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/CatsHead.bmp C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/CatsHead.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CatsHead.bmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\List.bmp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying the texture file List.bmp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -E copy C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/List.bmp C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/List.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\List.bmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying the texture file List.bmp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -E copy C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/List.bmp C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/List.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\List.bmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Copying the texture file List.bmp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -E copy C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/List.bmp C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/List.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\List.bmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Copying the texture file List.bmp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -E copy C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/List.bmp C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/List.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\List.bmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -SC:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting -BC:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project --check-stamp-file C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindGLUT.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindOpenGL.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -SC:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting -BC:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project --check-stamp-file C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindGLUT.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindOpenGL.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -SC:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting -BC:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project --check-stamp-file C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindGLUT.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindOpenGL.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe -SC:/Users/SHTbIK/Desktop/стакон/кг/Lab2/CMake_Lighting -BC:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project --check-stamp-file C:/Users/SHTbIK/Desktop/стакон/кг/Lab2/project/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindGLUT.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindOpenGL.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\cmake-3.15.4-win64-x64\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\3.15.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures\laba4.cpp" />
+    <ClCompile Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures\readBMP.cpp" />
+    <ClInclude Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures\GL_movement.h" />
+    <ClInclude Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures\readBMP.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\project\ZERO_CHECK.vcxproj">
+      <Project>{02726AB8-2388-331E-88AD-168A686FF057}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

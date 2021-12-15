@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures\laba4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures\readBMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures\GL_movement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\Light_and_textures\readBMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\CatsHead.bmp">
+      <Filter>Images for textures</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\List.bmp">
+      <Filter>Images for textures</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\SHTbIK\Desktop\стакон\кг\Lab2\CMake_Lighting\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{35620CE4-2D5A-380C-A1AA-C931C8020C81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images for textures">
+      <UniqueIdentifier>{AB4E883C-506F-36F8-AAC8-2A7F4572371F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{7737DD08-5B87-3730-B7E6-E7562A01011F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67362ADC-DE08-306E-B1B1-050E11E3669F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
